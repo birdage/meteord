@@ -1,5 +1,8 @@
 set -e
 
+npm install closure-util -g
+
+
 if [ -d /bundle ]; then
   cd /bundle
   tar xzf *.tar.gz
