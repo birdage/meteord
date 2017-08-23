@@ -1,7 +1,6 @@
 set -e
 
-npm install closure-util -g
-npm install node-pre-gyp -g
+npm install closure-util -g && npm install node-pre-gyp -g
 
 if [ -d /bundle ]; then
   cd /bundle
